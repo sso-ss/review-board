@@ -30,7 +30,7 @@ git --version
 에디터 터미널에서 아래 명령어를 그대로 붙여넣으세요:
 
 ```bash
-git clone https://github.com/your-repo.git
+git clone https://github.com/sso-ss/review-board.git
 ```
 
 Clone이 끝나면 폴더가 생깁니다. 에디터에서 해당 폴더를 열어주세요:
