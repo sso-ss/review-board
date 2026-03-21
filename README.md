@@ -2,6 +2,8 @@
 
 세션에 참여하셨다면 한 줄 소감을 남겨주세요! 🧡
 
+🔗 **라이브 보드**: [https://sso-ss.github.io/review-board/](https://sso-ss.github.io/review-board/)
+
 ---
 
 ## 🛠️ 사전 준비 (Mac 기준)
