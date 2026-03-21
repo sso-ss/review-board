@@ -10,7 +10,7 @@
   {
     name: "So Eun Ahn",
     link: "https://www.linkedin.com/in/soeunahn/",
-    text: "Git이 타임머신이라는 비유가 정말 와닿았어요. 이제 commit 할 때마다 체크포인트 찍는 기분이에요!",
+    text: "부족한 점이 많았던 이벤트였음에도 끝까지 함께해 주셔서 진심으로 감사드립니다. 여러분이 있어 더욱 뜻깊은 시간이었어요! ReadMe 방법대로 마무리 하시면 여러분의 소감도 이 보드에 올라가요 🙌",
     img:  "soeun.jpg",  // ← 이미지 파일명 (예: "soeun.jpg") — 비워두면 이니셜 아바타 표시
   },
 
