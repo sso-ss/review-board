@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI & Design · 리뷰 보드</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Header ───────────────────────────────────── -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-dot"></span>
+        <span class="logo-dot"></span>
+        AI & Design
+      </div>
+      <p class="header-sub">함께 배운 소감을 남겨주세요!</p>
+    </div>
+  </header>
+
+  <!-- ── CTA Banner ────────────────────────────────── -->
+  <section class="cta-banner">
+    <div class="cta-inner">
+      <p class="cta-step"><span class="step-badge">01</span><strong>VS Code</strong> 또는 <strong>Cursor</strong> 설치 후 Clone</p>
+      <span class="cta-arrow">→</span>
+      <p class="cta-step"><span class="step-badge">02</span>리뷰 파일에 <strong>한 줄 소감 작성</strong></p>
+      <span class="cta-arrow">→</span>
+      <p class="cta-step"><span class="step-badge">03</span><strong>Pull Request</strong> 보내기 🙌</p>
+    </div>
+    <p class="cta-detail">자세한 방법은 README.md를 참고하세요!</p>
+    <a class="repo-link" href="https://github.com" target="_blank" rel="noopener">
+      github.com/your-repo &nbsp;↗
+    </a>
+  </section>
+
+  <!-- ── Board ─────────────────────────────────────── -->
+  <main class="board">
+    <!-- cards are injected by app.js from reviews.js -->
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer>
+    <span>AI & Design Session · March 2026</span>
+    <span>PR은 언제나 환영합니다 🧡</span>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="reviews/_index.js"></script>
+</body>
+</html>

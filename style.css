@@ -1,0 +1,202 @@
+/* ── Reset & base ─────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fffdf4;
+  color: #2c2c2c;
+  min-height: 100vh;
+}
+
+/* ── Header ───────────────────────────────────────────── */
+header {
+  background: #fff;
+  border-bottom: 1px solid #f0ece4;
+  padding: 20px 40px;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0a0a0a;
+}
+.logo-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #f65009;
+}
+.header-sub {
+  font-size: 15px;
+  color: #888;
+}
+
+/* ── CTA Banner ───────────────────────────────────────── */
+.cta-banner {
+  background: #f65009;
+  padding: 28px 40px;
+}
+.cta-inner {
+  max-width: 1200px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cta-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+.cta-step strong { font-weight: 700; }
+.step-badge {
+  background: rgba(255,255,255,0.25);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+.cta-arrow {
+  font-size: 20px;
+  color: rgba(255,255,255,0.6);
+  font-weight: 700;
+}
+.repo-link {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 8px;
+  padding: 8px 18px;
+  width: fit-content;
+  transition: background .2s;
+}
+.repo-link:hover { background: rgba(255,255,255,0.15); }
+
+.cta-detail {
+  max-width: 1200px;
+  margin: 0 auto 12px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+}
+
+/* ── Board grid ───────────────────────────────────────── */
+.board {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+  align-items: start;
+}
+
+/* ── Review card ──────────────────────────────────────── */
+.review-card {
+  background: #fff;
+  border: 1.5px solid #f65009;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(82,82,82,0.10);
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s, box-shadow .2s;
+}
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(246,80,9,0.15);
+}
+
+/* card image area */
+.card-img {
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+  background: #f0ece4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.avatar-placeholder {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* card body */
+.card-body {
+  padding: 28px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+.name-block { display: flex; flex-direction: column; gap: 4px; }
+.reviewer-name { font-size: 20px; font-weight: 600; color: #2c2c2c; }
+.reviewer-link {
+  font-size: 14px;
+  color: #777;
+  text-decoration: underline;
+  word-break: break-all;
+}
+.reviewer-link:hover { color: #f65009; }
+
+.quote-mark {
+  font-size: 26px;
+  line-height: 1;
+  background: linear-gradient(135deg, #f65009, #e040fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.review-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #2c2c2c;
+}
+
+/* ── Footer ───────────────────────────────────────────── */
+footer {
+  text-align: center;
+  padding: 32px 40px;
+  font-size: 13px;
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  border-top: 1px solid #f0ece4;
+}
+
+/* ── Responsive ───────────────────────────────────────── */
+@media (max-width: 640px) {
+  .cta-inner { flex-direction: column; align-items: flex-start; }
+  .cta-arrow { display: none; }
+  .board { padding: 0 20px; gap: 20px; }
+  header { padding: 16px 20px; }
+}
