@@ -14,6 +14,13 @@
     img:  "soeun.jpg",  // ← 이미지 파일명 (예: "soeun.jpg") — 비워두면 이니셜 아바타 표시
   },
 
+  {
+    name: "danjeong",
+    link: "https://www.linkedin.com/in/dan-jeong/",
+    text: "멋진 후기시스템입니다!",
+    img:  "",
+  },
+
   // ── 여기에 새 리뷰를 붙여넣으세요 ↓ ──────────────────────────────
   // {
   //   name: "이름  (예: Kim Jisoo)",
