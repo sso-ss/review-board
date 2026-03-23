@@ -28,6 +28,12 @@
     img:  "",
   },
 
+  {
+    name: "Chuck Shin",
+    link: "https://www.linkedin.com/in/graycrisp/",
+    text: "모두 만나서 반가웠습니다. 재밌는 시간이었어요! 이렇게 후기 남기는 시스템도 너무 좋네요 :) 💅🏻",
+    img:  "chuck_avatar.png",
+  }
   // ── 여기에 새 리뷰를 붙여넣으세요 ↓ ──────────────────────────────
   // {
   //   name: "이름  (예: Kim Jisoo)",
