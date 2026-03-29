@@ -34,7 +34,14 @@
     text: "모두 만나서 반가웠습니다. 재밌는 시간이었어요! 이렇게 후기 남기는 시스템도 너무 좋네요 :) 💅🏻",
     img:  "chuck_avatar.png",
   },
-  // ── 여기에 새 리뷰를 붙여넣으세요 ↓ ──────────────────────────────
+  
+  {
+  name: "Glenn",
+    link: "https://www.linkedin.com/in/glennhoh/",
+    text: "멋진 이벤트 감사합니다. 리뷰작성을 통한 워크플로우 연습이라니 어메징한 센스네요 ^__^ !",
+    img:  "",
+  },
+    // ── 여기에 새 리뷰를 붙여넣으세요 ↓ ──────────────────────────────
   // {
   //   name: "이름  (예: Kim Jisoo)",
   //   link: "https://github.com/yourname",  // GitHub or LinkedIn — 없으면 "" 로 비워두세요
